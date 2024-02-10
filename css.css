@@ -1,20 +1,6 @@
-h1{
-    margin-left: 500px;
-    margin-right: 500px;
-    border-style: solid;
-    border-color: brown;
-    border-radius: 5px;
-    border-width: 5px;
-    color: rgb(234, 243, 234);
+
+#btn{
     
-}
-body{
-    /*background-image: url("media/Universe.png");*/
-    background-color: rgb(89, 93, 122);
-    background-size: cover;
-}
-#colot{
-    margin-left: 500px;
-    margin-right: 500px;
-    background-color: rgb(12, 185, 162);
+    background-color: blue;
+    
 }
