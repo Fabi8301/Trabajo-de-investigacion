@@ -3,25 +3,37 @@
 <head>
     <meta charset="utf-8"/>
     <title>Interfaz de juego</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="media/iconomine.ico" >
+    <link rel="stylesheet" href="interfaz.css">
+    <source src="interfaz.js">
 </head>
-<body>
-   <main id="video">
+<body >
+<main id="video">
     <center>
     <h1 id="titulo"></h1> 
-   
     </center>
+
     <center id="cent">
+    <a class="enl" href="nombre.html">
+    <button class="btn" id="nombre">Nombre</button>
+    </a>
+    <br><br>
+    <a class="enl" href="https://classic.minecraft.net/?join=V-uqWoM8QZSm0912" >
+    <button class="btn">Inicio</button></a>
+    <br><br>
     
-    <button class="btn">Nombre</button> 
-    <br>
-    <button class="btn">Inicio</button> 
-    <br>
-    <button class="btn">Ajustes</button>
-    <br>
-    <button class="btn" id="salir" ><a href="https://www.google.com.py/?hl=es">Salir</a></button>
-    
+    <a class="enl" href="https://www.google.com.py/?hl=es">
+    <button class="btn" >Salir</button>
+    </a>
     </center>
+     <h2 id="h2"><a id="vers" href="https://www.minecraft.net/es-es">Version: 1.20.4 </a></h2>
 </main>
+
+<audio id="audio" controls autoplay  loop>
+    <source src="media/musicaminecraft.mp3" type="audio/mpeg">
+
+</audio>
+ 
+
 </body>
 </html>
