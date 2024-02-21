@@ -5,10 +5,9 @@
     <title>Interfaz de juego</title>
     <link rel="icon" href="media/iconomine.ico" >
     <link rel="stylesheet" href="interfaz.css">
-    <source src="interfaz.js">
 </head>
 <body >
-<main id="video">
+<main>
     <center>
     <h1 id="titulo"></h1> 
     </center>
@@ -31,9 +30,12 @@
 
 <audio id="audio" controls autoplay  loop>
     <source src="media/musicaminecraft.mp3" type="audio/mpeg">
-
 </audio>
- 
+ <script>
+    window.addEventListener("click", ()=>{
+        document.getElementById("bodi").play();
+    } );
+ </script>
 
 </body>
 </html>

@@ -8,15 +8,28 @@
     background-color: rgb(90, 136, 97);
     opacity: 0.9;
 }
-#regs{
+#reg{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: gray;
+    color: black;
+    margin-top: 5px;
+}
+#reg:hover{
+    background-color: rgb(74, 72, 72);
+    color: chartreuse;
+}
+#enviar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
     background-color: gray;
     color: black;
 }
-#regs:hover{
+#enviar:hover{
     background-color: rgb(74, 72, 72);
     color: chartreuse;
 }

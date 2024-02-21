@@ -6,22 +6,33 @@
     <title>Registro</title>
     <link rel="icon" href="media/iconomine.ico">
     <link rel="stylesheet" href="nombre.css">
+    
 </head>
 <body>
-<div class="dv1">
+<div id="div" class="dv1">
+    <form>
+    Nombre:<input type="text" name="nombre" id="nombre" 
+    placeholder="Ingrese Nombre">
+    <br><br>
 
-    Nombre:<input type="text" name="nombre" id="nombre" placeholder="Ingrese Nombre">
+    Correo: <input type="email" name="correo" id="correo" 
+    placeholder="Correo electronico">
     <br><br>
-    Correo: <input type="email" name="correo" id="correo" placeholder="Correo electronico">
+
+    Contraseña:<input type="password" name="contraseña" id="pasw" 
+    placeholder="Cree su contraseña">
     <br><br>
-    Contraseña:<input type="password" name="contraseña" id="contraseña" placeholder="Cree su contraseña">
-    <br><br>
+    
+    <input id="enviar" type="submit" value="Enviar">
+    </form>
     <a href="interfaz.html">
-    <button id="regs" name="Registro" >Registro</button></a>
+    <button id="reg" id="regs" name="Volver" >Volver</button></a>
     <br><br>
+   
  <p ><a id="tienes" href="interfaz.html">¿Tienes una cuenta?</a></p>
  <br>
  
 </div>
+<script src="./nombre_interfaz.js"></script>
 </body>
 </html>
