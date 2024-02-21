@@ -1,42 +1,42 @@
-Document.addEventListener("DOMContentLoaded",function(){
 
-const nombre = document.getElementById("nombre")
-const correo = document.getElementById("correo")
-const pasw = document.getElementById("pasw")
-const enviar = document.getElementById("enviar")
+const nombre = document.getElementById("name")
+const imail = document.getElementById("email")
+const pass = document.getElementById("pass")
+const envio = document.getElementById("enviar")
 
-    envio.addEventListener("click", function() {
+envio.addEventListener("click", function() {
+
     
-    const nombre = nombre.value.trim();    
-    if(!nombre) {
+    const name = nombre.value.trim();
+    
+    if(!name) {
         alert("Falta el nombre");
         return;
+        //localStorage.setItem("nombre", JSON.stringify("nombre.html"))
+       
     }
     
-    const correo = correo.value.trim();
-    if(!correo) {
-        alert("Falta el correo");
+    const imail = email.value.trim();
+    if(!imail) {
+        alert("Falta apellidos");
         return;
     }
-    
-    const pasw= pasw.value.trim();
-    if(!pasw){
+    const pass= pass.value.trim();
+    if(!pass){
         alert("y la contraseña?")
         return
     }
-    })
+   // alert('listo ya puedes "volver" disfruta')
+   const usuariodatos= {
+    nombre:name,
+    imail:imail,
+    pass:pass
+
+   }
+   console.log(usuariodatos);
+
+   const UsuarioJson = JSON.stringify(usuariodatos);
+    console.log(UsuarioJson);
+    localStorage.setItem("usuariodatos", UsuarioJson);
+
 })
-    const ELusuario = {
-        name:nombre
-        correo:correo
-        pasw:pasw
-    };
-    console.log(Elusuario);
-
-    //Proceso de guardado
-    const paraUsuario = JSON.stringify(Elusuario);
-    console.log(paraUsuario);
-    localStorage.setItem("Elusuario", paraUsuario);
-    alert('listo ya puedes "volver" disfruta')
-
-   
