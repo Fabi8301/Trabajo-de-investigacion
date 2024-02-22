@@ -1,42 +1,39 @@
+//document.addEventListener("MContentLoaded", function(){})
 
 const nombre = document.getElementById("name")
 const imail = document.getElementById("email")
 const pass = document.getElementById("pass")
 const envio = document.getElementById("enviar")
 
-envio.addEventListener("click", function() {
-
+envio.addEventListener("click", function(e) {
     
-    const name = nombre.value.trim();
     
-    if(!name) {
+  
+    if(!nombre.value.trim()) {
         alert("Falta el nombre");
         return;
-        //localStorage.setItem("nombre", JSON.stringify("nombre.html"))
-       
     }
+
     
-    const imail = email.value.trim();
-    if(!imail) {
-        alert("Falta apellidos");
+    if(!imail.value.trim()) {
+        alert("Falta el email");
         return;
     }
-    const pass= pass.value.trim();
-    if(!pass){
-        alert("y la contraseña?")
-        return
+    
+    if(!pass.value.trim()) {
+        alert("y la contraseña");
+        return;
     }
-   // alert('listo ya puedes "volver" disfruta')
-   const usuariodatos= {
-    nombre:name,
-    imail:imail,
-    pass:pass
 
+   alert('listo ya puedes "volver" disfruta');
+   const usuariodatos= {
+    nombre:nombre.value.trim(),
+    imail:imail.value.trim(),
+    pass:pass.value.trim()
    }
    console.log(usuariodatos);
 
    const UsuarioJson = JSON.stringify(usuariodatos);
     console.log(UsuarioJson);
     localStorage.setItem("usuariodatos", UsuarioJson);
-
 })
