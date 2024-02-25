@@ -8,6 +8,19 @@
     background-color: rgb(90, 136, 97);
     opacity: 0.9;
 }
+#name{
+    margin-right: 19px;
+    padding-right: 8px;
+   
+}
+#email{
+    margin-right: 15px;
+    padding-right: 8px;
+}
+#pass{
+    margin-right: 37px;
+    padding-right: 8px;
+}
 #reg{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -24,8 +37,8 @@
 #enviar{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 72px;
+    padding-right: 72px;
     background-color: gray;
     color: black;
 }
