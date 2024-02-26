@@ -1,11 +1,14 @@
 
 .dv1{
+    
     margin-top : 50px;
     margin-left: 500px;
     margin-right: 500px;
+    
     padding-top: 50px;
     text-align: center;
     background-color: rgb(90, 136, 97);
+    background-size: cover;
     opacity: 0.9;
 }
 #name{

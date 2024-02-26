@@ -1,15 +1,15 @@
 //document.addEventListener("MContentLoaded", function(){})
 
-const nombre = document.getElementById("name")
-const imail = document.getElementById("email")
-const pass = document.getElementById("pass")
-const envio = document.getElementById("enviar")
+const nombre = document.getElementById("name");
+const imail = document.getElementById("email");
+const pass = document.getElementById("pass");
+const envio = document.getElementById("enviar");
 
-envio.addEventListener("click", function(e) {
+envio.addEventListener("click", function(e){
     
     
   
-    if(!nombre.value.trim()) {
+    if(!nombre.value.trim()){
         alert("Falta el nombre");
         return;
     }
@@ -34,6 +34,6 @@ envio.addEventListener("click", function(e) {
    console.log(usuariodatos);
 
    const UsuarioJson = JSON.stringify(usuariodatos);
-    console.log(UsuarioJson);
+console.log(UsuarioJson);
     localStorage.setItem("usuariodatos", UsuarioJson);
 })
