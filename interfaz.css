@@ -1,6 +1,6 @@
 
 
-#titulo{
+#titulo{/*Se inserto una imagen en formato png adactado para el titulo*/
     background-image: url(media/minepng.png);
     background-size:600px, 800px;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     border-radius: 10px;
 }
 
-#titulo:hover{
+#titulo:hover{/*combio de color al pasar el cursor por ensima*/
     background-color: green;
     opacity:0.5;
 }
@@ -21,7 +21,7 @@
     margin-top: 50px;
 }
 
-.btn{
+.btn{/*forma y color de los botones*/
 
     width: 400px;
   
@@ -30,32 +30,25 @@
     padding:25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-.enl{
-    
-    text-decoration: none;
-    
-}
-
-.btn:hover{
-    
+.btn:hover{/*color de los botones al pasar el cursor por encima*/
     background-color: rgb(58, 58, 59);
 color: rgb(131, 255, 69);
 }
 
-body{
+.enl{
+    text-decoration: none;
+}
+
+body{/*imagen de fondo en formato gif*/
 background-image: url(media/minecraft\ fondo.gif);
 background-size:cover;
 background-position: 0px;
-
 }
-#vers{
+
+#vers{/*color de texto de: version del juego*/
     color: black;
     text-decoration: none;
 }
 #vers:hover{
-    color: rgb(241, 255, 241); ;
-}
-#audio{
-    opacity:0.1;
+    color: rgb(241, 255, 241); 
 }

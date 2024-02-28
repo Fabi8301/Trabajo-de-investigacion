@@ -1,6 +1,5 @@
 
-.dv1{
-    
+.dv1{/*zona de la interfaz para el imput y los buttons*/
     margin-top : 50px;
     margin-left: 500px;
     margin-right: 500px;
@@ -11,20 +10,20 @@
     background-size: cover;
     opacity: 0.9;
 }
-#name{
+#name{/*posicion del imput nombre*/
     margin-right: 19px;
     padding-right: 8px;
    
 }
-#email{
+#email{/*posicion del input email*/
     margin-right: 15px;
     padding-right: 8px;
 }
-#pass{
+#pass{/*posicion del imput contraseña*/
     margin-right: 37px;
     padding-right: 8px;
 }
-#reg{
+#reg{/*posicion del los boton volver y el color de este*/
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 80px;
@@ -33,11 +32,11 @@
     color: black;
     margin-top: 5px;
 }
-#reg:hover{
+#reg:hover{/*cambio de color al pasar el cursor por ensima*/
     background-color: rgb(74, 72, 72);
     color: chartreuse;
 }
-#enviar{
+#enviar{/*posicion del los boton registro y el color de este*/
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 72px;
@@ -45,11 +44,11 @@
     background-color: gray;
     color: black;
 }
-#enviar:hover{
+#enviar:hover{/*cambio de color al pasar el cursor por ensima*/
     background-color: rgb(74, 72, 72);
     color: chartreuse;
 }
-body{
+body{/*la imagen de fondo en formato jpg*/
     
     background-image: url(media/menuminecraft.jpg);
     background-size: cover;
@@ -57,7 +56,7 @@ body{
     margin-top:150px;
 }
 
-#tienes{
+#tienes{/*color de texto de: ¿tienes una cuenta?*/
    
     color: black;
 }
